@@ -37,9 +37,9 @@ classDiagram
         + atualizarPagina()
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+    IPhone --> ReprodutorMusical
+    IPhone --> AparelhoTelefonico
+    IPhone --> NavegadorInternet
 ```
 
 
