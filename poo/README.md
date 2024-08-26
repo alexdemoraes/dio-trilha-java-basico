@@ -10,14 +10,14 @@ classDiagram
         + selecionarMusica(String musica)
     }
 
-    interface AparelhoTelefonico {
+    class AparelhoTelefonico {
         <<interface>>
         + ligar(String numero)
         + atender() 
         + iniciarCorreioVoz()
     }
 
-    Interface NavegadorInternet {
+    class NavegadorInternet {
         <<interface>>
         + exibirPagina(String url)
         + adicionarNovaAba()
@@ -30,7 +30,7 @@ classDiagram
         + pausar(String exemplo)
         + selecionarMusica(String musica)
         + ligar(String numero)
-        + atender() 
+        + atender()
         + iniciarCorreioVoz()
         + exibirPagina(String url)
         + adicionarNovaAba()
